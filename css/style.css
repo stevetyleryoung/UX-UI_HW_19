@@ -1,0 +1,490 @@
+@font-face {
+    font-family: "Biotif";
+    src: url("Users/steveyoung/Library/Fonts/Biotif-Black.ttf /Users/steveyoung/Library/Fonts/Biotif-BlackItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-Bold.ttf /Users/steveyoung/Library/Fonts/Biotif-BoldItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-Book.ttf /Users/steveyoung/Library/Fonts/Biotif-BookItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-ExtraBold.ttf /Users/steveyoung/Library/Fonts/Biotif-ExtraBoldItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-Light.ttf /Users/steveyoung/Library/Fonts/Biotif-LightItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-Medium.ttf /Users/steveyoung/Library/Fonts/Biotif-MediumItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-Regular.ttf /Users/steveyoung/Library/Fonts/Biotif-RegularItalic.ttf /Users/steveyoung/Library/Fonts/Biotif-SemiBold.ttf /Users/steveyoung/Library/Fonts/Biotif-SemiBoldItalic.ttf") format("ttf"),
+  }
+  
+  body {
+    font-family: "Biotif", Arial, sans-serif;
+  }
+
+/* Header */
+
+.headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D1D1D; 
+    color: #fff; 
+    padding: 5px; 
+}
+
+.nameHeader {
+    margin: 0; 
+    padding: 20px;
+    font-size: 30px;
+    font-weight: extra bold; 
+    color: #EFCF48;
+   
+}
+
+.headerMenu {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 20px; 
+    color: #EFCF48;
+}
+
+.header-inline-block {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+
+
+/* Bio */
+
+.bio {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 50px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    height: 100vh;
+    background-color: #1D1D1D ;
+    
+}
+
+.bio-right {
+        flex: 0.7; 
+        padding: 10px;
+        box-sizing: border-box;
+}
+
+.bio-right img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 0 auto;
+}
+
+.bio-left {
+    flex: 0.4; 
+    padding: 200px; 
+    text-align: left; 
+    align-self: center; 
+    color: #F3F3F3; 
+}
+
+.bio-left, .bio-right {
+    align-content: center;
+}
+
+.bioHeading {
+    font-style: bold;
+    font-size: 60px;
+    margin: 0;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.get-in-touch-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.get-in-touch-button::after {
+  content: "→"; 
+  margin-left: 0px; 
+  font-size: 24px;
+  
+}
+
+
+/* About */
+
+#about {
+
+  margin-top: 25px;
+  margin-bottom: 200px;
+}
+
+.aboutHeading {
+  text-align: left; 
+  color: #1D1D1D; 
+  margin-left: 20px;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 0; 
+  font-family: biotif;
+  font-style: bold;
+  font-size: 80px;
+}
+
+.aboutOneliner {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  border-top: 1px solid black; 
+  border-bottom: 1px solid black; 
+  
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center the cards */
+}
+
+.adventure-card {
+  display: inline-block; 
+  vertical-align: top; 
+  width: 400px; 
+  margin-right: 10px; 
+  margin-bottom: 20px; 
+  box-sizing: border-box; 
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* Work */
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    height: 100vh;
+    background-color: #1D1D1D ;
+  }
+
+  
+
+  .cya, .cleanEnergy, .ausCharity {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-size: cover;
+  }
+
+  .cya {
+    margin-top: 0;
+    background-image: url("../images/jakob-owens-WUmb_eBrpjs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  .cleanEnergy {
+    margin-top:0;
+    background-image: url("../images/pexels-tobi-619950.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .ausCharity {
+    margin-top:0;
+    background-image: url("../images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .text {
+    background: rgb(0,0,0,0.4) ;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+  }
+
+  .text p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .main-heading {
+    text-align: left; 
+    color: #F3F3F3; 
+    margin-left: 20px; 
+    width: 100%; 
+    padding-left: 20px; 
+    font-family: biotif;
+    font-style: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+
+  .containerWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .case-study-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .case-study-button::after {
+    content: "→"; 
+    margin-left: 0px; 
+    font-size: 16px;
+    
+  }
+
+  
+  
+  
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 200px;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.containerSkills {
+    text-align: left; 
+    position: relative;
+    
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 400px; 
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.main-heading-skills {
+    text-align: left; 
+    color: #1D1D1D; 
+    margin-left: 20px;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 0; 
+    font-family: biotif;
+    font-style: bold;
+    font-size: 80px;
+}
+
+li {
+    font-size: 20px;;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D1D1D; 
+    color: white; 
+    padding: 20px; 
+}
+
+.left-content {
+    text-align: left;
+}
+
+.nameFooter {
+    margin-top: 5px; 
+}
+
+.footerMenu ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.footerMenu ul li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.get-in-touch-footer {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    /* Header */
+    .nameHeader {
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .headerMenu {
+      padding: 10px;
+    }
+  
+    .header-inline-block {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  
+    /* Bio */
+    .bio {
+      flex-direction: column-reverse;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .bio-left {
+      flex: 1;
+      padding: 20px;
+    }
+  
+    .bioHeading {
+      font-size: 40px;
+    }
+  
+    /* About */
+    .about {
+        margin-top: 80px;
+    }
+    .main-heading-about {
+      font-size: 40px;
+    }
+  
+    .info-block {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+  
+    /* Work */
+
+    .column {
+        margin-top: 450px;
+    }
+    .main-heading {
+      font-size: 40px;
+    }
+  
+    .cya, .cleanEnergy, .ausCharity {
+      width: 100%;
+      margin-top: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text {
+      padding: 10px;
+    }
+  
+    .text p {
+      font-size: 16px;
+    }
+  
+    /* Skills */
+    .main-heading-skills {
+      font-size: 40px;
+    }
+  
+    .info-block {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .containerSkills {
+        margin-top: 20px;
+    }
+  
+    li {
+      font-size: 16px;
+    }
+  
+    /* Footer */
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      margin-top: -500px;
+    }
+  
+    .left-content {
+      text-align: center;
+    }
+  
+    .footerMenu ul {
+      padding: 10px;
+      margin: 0;
+    }
+  
+    .footerMenu ul li {
+      margin-right: 5px;
+      font-size: 14px;
+    }
+  }
+  
